@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#200025"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/locationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Enter your location"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/getWeatherButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/locationEditText"
+        android:layout_centerHorizontal="true"
+        android:text="Get Weather" />
+
+    <TextView
+        android:id="@+id/locationTextView"
+        android:layout_width="214dp"
+        android:layout_height="42dp"
+        android:layout_below="@id/getWeatherButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="99dp"
+        android:text="Location"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#957373" />
+
+    <TextView
+        android:id="@+id/temperatureTextView"
+        android:layout_width="210dp"
+        android:layout_height="34dp"
+        android:layout_below="@id/locationTextView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="101dp"
+        android:text="Temperature"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/rainTextView"
+        android:layout_width="186dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/temperatureTextView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginEnd="110dp"
+        android:text="Rain: "
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FDFBFB" />
+</RelativeLayout>

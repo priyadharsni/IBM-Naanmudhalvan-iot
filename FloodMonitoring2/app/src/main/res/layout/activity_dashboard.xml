@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dam"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".DashboardActivity">
+
+    <Button
+        android:id="@+id/paymentButton"
+        android:layout_width="323dp"
+        android:layout_height="95dp"
+        android:backgroundTint="#0C0C0C"
+        android:text="waterlevel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.515" />
+
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="318dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="136dp"
+        android:backgroundTint="#100F0F"
+        android:text="Settings"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.645"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/floodrange"
+        app:layout_constraintVertical_bias="0.197"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/myReservationsButton"
+        android:layout_width="160dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#191717"
+        android:text="weatherforecast"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.159" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="385dp"
+        android:layout_height="73dp"
+        android:padding="16dp"
+        android:text="floodmonitoring dashboard"
+        android:textAlignment="center"
+        android:textColor="#121010"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/paymentButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.769"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <Button
+        android:id="@+id/findParkingButton"
+        android:layout_width="159dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#100F0F"
+        android:text="flow of water"
+        android:textColorHighlight="#191717"
+        android:textColorLink="#1B1717"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/myReservationsButton"
+        app:layout_constraintHorizontal_bias="0.355"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.163" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="39dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="294dp"
+        android:layout_height="44dp"
+        android:backgroundTint="#0C0C0C"
+        android:textAlignment="gravity"
+        android:textAllCaps="true"
+        android:textColor="#F6F3F3"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.957"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.181" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="40dp"
+        android:layout_height="69dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/icon" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="60dp"
+        android:layout_height="69dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.034"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.164"
+        app:srcCompat="@drawable/person" />
+
+    <!-- Add more buttons as needed -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

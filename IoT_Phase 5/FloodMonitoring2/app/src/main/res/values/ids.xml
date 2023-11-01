@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="locationSpinner" type="id" />
+    <item name="progressBar3" type="id" />
+    <item name="relativeLayout" type="id" />
+    <item name="waterFlowTextView" type="id" />
+    <item name="controlButton" type="id" />
+</resources>

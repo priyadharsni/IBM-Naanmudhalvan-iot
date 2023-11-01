@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "724242629984",
+    "firebase_url": "https://flood-monitoring-511bd-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "flood-monitoring-511bd",
+    "storage_bucket": "flood-monitoring-511bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724242629984:android:94e908cab9123c96360a05",
+        "android_client_info": {
+          "package_name": "com.example.floodmonitoring"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724242629984-qddt9ra0m8rm4tmuhsnjmc8kflvlp197.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMyxoZEboMBnPFsheXL68ij0IT48XsfHY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724242629984-qddt9ra0m8rm4tmuhsnjmc8kflvlp197.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724242629984:android:7d96b20a5ac1b184360a05",
+        "android_client_info": {
+          "package_name": "com.flood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724242629984-qddt9ra0m8rm4tmuhsnjmc8kflvlp197.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMyxoZEboMBnPFsheXL68ij0IT48XsfHY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724242629984-qddt9ra0m8rm4tmuhsnjmc8kflvlp197.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724242629984:android:13e4dd9673e44981360a05",
+        "android_client_info": {
+          "package_name": "com.flood_monitor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724242629984-qddt9ra0m8rm4tmuhsnjmc8kflvlp197.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMyxoZEboMBnPFsheXL68ij0IT48XsfHY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724242629984-qddt9ra0m8rm4tmuhsnjmc8kflvlp197.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
